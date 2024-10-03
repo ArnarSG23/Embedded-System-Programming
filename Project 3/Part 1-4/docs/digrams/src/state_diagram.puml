@@ -1,0 +1,30 @@
+@startuml Dynamic Controller Behaviour
+title Project 3 - Part 2
+
+state "Initialization" as state0
+state0 : Entry / Initialize Parameters
+
+state "Pre-Operational" as state1
+state1 : Do / Blink LED at 1Hz
+
+state "Operational" as state2
+state2 : Do / LED On
+state2 : Do / Start Motor
+
+state "Stopped" as state3
+state3 : Do / Blink LED at 2Hz
+state3 : Do / Stop Motor
+
+[*] --> state0
+state0 --> state1 : Boot-Up
+state1 --> state0 : Reset Command
+state1 --> state2 : Set Operational Command
+state1 --> state3 : Button Pressed 
+state2 -> state0 : Reset Command
+state2 --> state1 : Set Pre-Operational Command
+state2 --> state3 : Button Pressed
+state3 -> state0 : Reset Command
+state3 --> state1 : Set Pre-Operational Command
+state3 --> state2 : Set Operational Command
+
+@enduml
