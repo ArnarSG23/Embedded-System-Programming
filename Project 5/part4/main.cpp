@@ -38,7 +38,7 @@
 // }
 
 // void setup() {
-//     Serial.begin(115200);
+//     Serial.begin(9600);
 // }
 
 // void loop() {
@@ -95,7 +95,7 @@ void handleModbusRequest() {
 }
 
 void setup() {
-    Serial.begin(115200);
+    Serial.begin(9600);
     pinMode(PWM_PIN, OUTPUT);
 }
 
