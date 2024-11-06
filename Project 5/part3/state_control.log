@@ -1,0 +1,38 @@
+[Wed Nov  6 16:34:44 2024
+] Sending command to Arduino 1: 01 06 00 01 00 80 d9 aa
+[Wed Nov  6 16:34:44 2024
+] Received response from Arduino 1
+[Wed Nov  6 16:34:44 2024
+] State: Pre-Operational
+[Wed Nov  6 16:34:48 2024
+] Sending command to Arduino 1: 01 06 00 01 00 01 19 ca
+[Wed Nov  6 16:34:48 2024
+] Received response from Arduino 1
+[Wed Nov  6 16:34:48 2024
+] State: Operational
+[Wed Nov  6 16:34:51 2024
+] Sending command to Arduino 2: 02 06 00 01 00 80 d9 99
+[Wed Nov  6 16:34:51 2024
+] Received response from Arduino 2
+[Wed Nov  6 16:34:51 2024
+] State: Pre-Operational
+[Wed Nov  6 16:34:54 2024
+] Sending command to Arduino 1: 01 06 00 01 00 02 59 cb
+[Wed Nov  6 16:34:54 2024
+] Received response from Arduino 1
+[Wed Nov  6 16:34:54 2024
+] State: Stop
+[Wed Nov  6 16:34:57 2024
+] Sending command to Arduino 2: 02 06 00 01 00 81 18 59
+[Wed Nov  6 16:34:57 2024
+] Received response from Arduino 2
+[Wed Nov  6 16:34:57 2024
+] State: Reset Node
+[Wed Nov  6 16:35:12 2024
+] Sending command to Arduino 2: 02 06 00 01 00 82 58 58
+[Wed Nov  6 16:35:12 2024
+] Received response from Arduino 2
+[Wed Nov  6 16:35:12 2024
+] State: Reset Communications
+[Wed Nov  6 16:35:13 2024
+] Exiting program
